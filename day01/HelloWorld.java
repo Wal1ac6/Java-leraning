@@ -4,4 +4,11 @@ public class HelloWorld {
         // 输出字符串"Hello, World!"到控制台
         System.out.println("Hello, World!");
     }
+
+    //打印3行HelloWorld
+    public static void printHelloWorld() {
+        System.out.println("Hello World!");
+        System.out.println("Hello World!");
+        System.out.println("Hello World!");
+    }
 }
