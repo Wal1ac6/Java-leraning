@@ -1,3 +1,4 @@
+package hello;
 public class HelloWorld {
     // 主方法，程序的入口
     public static void main(String[] args) {
