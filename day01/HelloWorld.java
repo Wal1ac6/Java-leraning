@@ -6,6 +6,9 @@ public class HelloWorld {
         System.out.println("-------------------");
         // 调用printHelloWorld方法，打印3行Hello World
         printHelloWorld();
+        System.out.println("-------------------");
+        // 调用sum方法，计算并输出任意两个整数的和
+        sum(1,2);
     }
 
     //打印3行HelloWorld
@@ -17,5 +20,10 @@ public class HelloWorld {
         System.out.println("Hello World!");
         // 打印Hello World!
         System.out.println("Hello World!");
+    }
+
+    //我要求任意两个整数的和
+    public static void sum(int a,int b){
+        System.out.println(a+b);
     }
 }
